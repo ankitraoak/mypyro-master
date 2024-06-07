@@ -38,7 +38,7 @@ if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
     errors_compiler.start()
 
 setup(
-    name="MYmypyrogram",
+    name="MYpyrogram",
     version=version,
     description="Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots",
     long_description=readme,
@@ -80,7 +80,7 @@ setup(
     },
     python_requires="~=3.7",
     package_data={
-        "mymypyrogram": ["py.typed"],
+        "mypyrogram": ["py.typed"],
     },
     packages=find_packages(exclude=["compiler*", "tests*"]),
     zip_safe=False,
